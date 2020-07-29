@@ -17,23 +17,23 @@ The core component was to start with internal CA to generate asymmetric keys to 
 
 When you decide to create a CA, the decision comes down to building a certificate chain, a two, three or four tier certificate chain.  Below are the examples for certificate chain and validity of certificates.I will leave this with you to decide what level of security and complexity you want to achieve in this job.
 
-### Two tier certificate chain
+	Two tier certificate chain
 	+---------------+  +---------------+  +---------------+
 	|  Root CA   	|  | Intermediate  |  | End-User      |
 	|   25 Yrs   	|--|   CA  10 Yrs  |--| Certificate   |
 	|               |  |               |  |               |
 	+---------------+  +---------------+  +---------------+
 
-	### Three tier certificate chain
+	Three tier certificate chain
 	+---------------+  +---------------+  +---------------+	 +---------------+
 	|  Root CA   	|  | Intermediate  |  | Policy CA     |	 |  End-User     |
 	|   25 Yrs      |--|   CA  10 Yrs  |--|	5 Yrs         |--|  Certificate  |
 	|               |  |               |  |               |  |  1 Yr         |
 	+---------------+  +---------------+  +---------------+  +---------------+
 
-	### Four tier certificate chain
-	+---------------+  +---------------+  +---------------+	 +---------------+	+---------------+
-	|  Root CA   	|  | Intermediate  |  | Policy CA     |	 |  End-User CA  |	|  End-User     |
+	Four tier certificate chain
+	+---------------+  +---------------+  +---------------+	 +---------------+  +---------------+
+	|  Root CA   	|  | Intermediate  |  | Policy CA     |	 |  End-User CA  |  |  End-User     |
 	|   25 Yrs   	|--|   CA  10 Yrs  |--|	5 Yrs         |--|  3 Yrs        |--|  Certificate  |
 	|               |  |               |  |               |  |               |  |  1 Yr         |
 	+---------------+  +---------------+  +---------------+  +---------------+  +---------------+
