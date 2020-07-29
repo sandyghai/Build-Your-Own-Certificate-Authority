@@ -48,9 +48,9 @@ https://shop.nitrokey.com/shop/product/nitrokey-hsm-2-7
 https://www.yubico.com/product/yubihsm-2/
 
 Cloud HSM 
-AWS - https://aws.amazon.com/cloudhsm/
-Google - https://cloud.google.com/hsm/
-Azure - https://docs.microsoft.com/en-us/azure/dedicated-hsm/
+AWS - https://aws.amazon.com/cloudhsm/  
+Google - https://cloud.google.com/hsm/  
+Azure - https://docs.microsoft.com/en-us/azure/dedicated-hsm/  
 
 Once you have HSM; You have to generate a root key.
 
@@ -59,13 +59,13 @@ We need to generate root CA using root key.
 
 ## Resource
 
-https://en.wikipedia.org/wiki/Certificate_authority
-https://en.wikipedia.org/wiki/X.509#Certificate_chains_and_cross-certification
-https://security.stackexchange.com/questions/189339/why-is-an-hsm-required-to-protect-ca-certificates-rather-than-a-regular-usb-tok
-https://www.yubico.com/product/yubihsm-2/
-https://shop.nitrokey.com/shop/product/nitrokey-hsm-2-7
-https://knowledge.digicert.com/solution/SO7555.html
-https://en.wikipedia.org/wiki/PKCS_11
+https://en.wikipedia.org/wiki/Certificate_authority  
+https://en.wikipedia.org/wiki/X.509#Certificate_chains_and_cross-certification  
+https://security.stackexchange.com/questions/189339/why-is-an-hsm-required-to-protect-ca-certificates-rather-than-a-regular-usb-tok  
+https://www.yubico.com/product/yubihsm-2/  
+https://shop.nitrokey.com/shop/product/nitrokey-hsm-2-7  
+https://knowledge.digicert.com/solution/SO7555.html  
+https://en.wikipedia.org/wiki/PKCS_11  
 
 ## Discussion
 
