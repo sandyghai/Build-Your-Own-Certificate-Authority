@@ -2,7 +2,7 @@
 
 A Certificate Authority (CA) is the core component of a public key infrastructure (PKI) responsible for establishing a hierarchical chain of trust. CAs issue the digital credentials used to certify the identity of users. 
 
-According to wiki, certification authority (CA) is an entity that issues digital certificates. A digital certificate certifies the ownership of a public key by the named subject of the certificate. This allows others (relying parties) to rely upon signatures or on assertions made about the private key that corresponds to the certified public key. A CA acts as a trusted third party—trusted both by the subject (owner) of the certificate and by the party relying upon the certificate. The format of these certificates is specified by the X.509 standard.  
+According to wiki, certification authority (CA) is an entity that issues digital certificates. A digital certificate certifies the ownership of a public key by the named subject of the certificate. This allows others (relying parties) to rely upon signatures or on assertions made about the private key that corresponds to the certified public key. A CA acts as a trusted third party—trusted both by the subject (owner) of the certificate and by the party relying upon the certificate. The format of these certificates is specified by the X.509 standard.
 
 In order to mitigate attacks against Certificate Authorities, a Hardware Security Module is require to ensure and maintain the integrity of a PKI.
 
@@ -18,11 +18,11 @@ The core component was to start with internal CA to generate asymmetric keys to 
 When you decide to create a CA, the decision comes down to building a certificate chain, a two, three or four tier certificate chain.  Below are the examples for certificate chain and validity of certificates.I will leave this with you to decide what level of security and complexity you want to achieve in this job.
 
 ### Two tier certificate chain
-	+--------------+  +--------------+  +--------------+
-	|  Root CA     |  | Intermediate |  | End-User     |
-	|   25 Yrs     |--|   CA  10 Yrs |--| Certificate  |
-	|			   |  |	             |  |              |
-	+--------------+  +--------------+  +--------------+
+	+---------------+  +---------------+  +---------------+
+	|  Root CA   	|  | Intermediate  |  | End-User      |
+	|   25 Yrs   	|--|   CA  10 Yrs  |--| Certificate   |
+	|            	|  |               |  |          	  |
+	+---------------+  +---------------+  +---------------+
 
 	### Three tier certificate chain
 	+---------------+  +---------------+  +---------------+	 +---------------+		    
