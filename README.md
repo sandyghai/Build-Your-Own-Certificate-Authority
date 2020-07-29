@@ -21,7 +21,7 @@ When you decide to create a CA, the decision comes down to building a certificat
 	+---------------+  +---------------+  +---------------+
 	|  Root CA   	|  | Intermediate  |  | End-User      |
 	|   25 Yrs   	|--|   CA  10 Yrs  |--| Certificate   |
-	|            	|  |               |  |          	  |
+	|               |  |               |  |               |
 	+---------------+  +---------------+  +---------------+
 
 	### Three tier certificate chain
