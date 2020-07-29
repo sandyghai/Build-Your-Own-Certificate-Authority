@@ -43,9 +43,9 @@ When you decide to create a CA, the decision comes down to building a certificat
 
 In order to generate a root key you need to buy your own Hardware Security Module or use cloud vendors HSM.
 
-Buy HSM
-https://shop.nitrokey.com/shop/product/nitrokey-hsm-2-7
-https://www.yubico.com/product/yubihsm-2/
+Buy HSM  
+https://shop.nitrokey.com/shop/product/nitrokey-hsm-2-7  
+https://www.yubico.com/product/yubihsm-2/  
 
 Cloud HSM 
 AWS - https://aws.amazon.com/cloudhsm/  
