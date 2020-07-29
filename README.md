@@ -55,8 +55,7 @@ Azure - https://docs.microsoft.com/en-us/azure/dedicated-hsm/
 Once you have HSM; You have to generate a root key.
 
 ## Generate root CA 
-
-
+We need to generate root CA using root key.
 
 ## Resource
 
