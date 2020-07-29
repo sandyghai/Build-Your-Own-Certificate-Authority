@@ -55,7 +55,11 @@ Azure - https://docs.microsoft.com/en-us/azure/dedicated-hsm/
 Once you have HSM; You have to generate a root key.
 
 ## Generate root CA 
-We need to generate root CA using root key.
+We have to generate root ca certificate using root key.  
+We have to generate key for Intermediate ca certificate and signed them via root ca key.  
+We have to generate key for policy ca certificate and signed them via Intermediate ca certificate key.  
+We have to generate key for end-user ca certificate and signed them via policy ca certificate key. 
+We have to generate key for end-user certificate and signed them via end-user ca certificate key. 
 
 ## Resource
 
