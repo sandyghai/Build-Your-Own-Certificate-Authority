@@ -21,26 +21,22 @@ When you decide to create a CA, the decision comes down to building a certificat
 	+--------------+  +--------------+  +--------------+
 	|  Root CA     |  | Intermediate |  | End-User     |
 	|   25 Yrs     |--|   CA  10 Yrs |--| Certificate  |
-	|			   |  |	             |  | 1 Yr         |
+	|			   |  |	             |  |              |
 	+--------------+  +--------------+  +--------------+
 
 	### Three tier certificate chain
-	+--------------+  +--------------+  +--------------+
-	|  Root CA     |  | Intermediate |  | End-User     |
-	|   25 Yrs     |--|   CA  10 Yrs |--| Cert 1 Yr    |
-	+--------------+  +--------------+  +--------------+
-	+---------------+	+---------------+	+---------------+	+---------------+		    
-	|  Root CA   	|	| Intermediate  |	|  Policy CA   	|	|  End-User		|
-	|   25 Yrs   	|---|   CA  10 Yrs	|---|	5 Yrs   	|---|  Certificate  |
-	|            	|	|          		|   |				|   |	1 Yr		|
-	+---------------+   +---------------+   +---------------+   +---------------+  
+	+---------------+  +---------------+  +---------------+	 +---------------+		    
+	|  Root CA   	|  | Intermediate  |  | Policy CA     |	 |  End-User	 |
+	|   25 Yrs   	|--|   CA  10 Yrs  |--|	5 Yrs   	  |--|  Certificate  |
+	|            	|  |          	   |  |				  |  |	1 Yr		 |
+	+---------------+  +---------------+  +---------------+  +---------------+  
 
 	### Four tier certificate chain
-	+---------------+	+---------------+	+---------------+	+---------------+	+---------------+		    
-	|  Root CA   	|	| Intermediate  |	|  Policy CA   	|	|  End-User CA  |	|  End-User		|
-	|   25 Yrs   	|---|   CA  10 Yrs	|---|	5 Yrs   	|---|	3 Yrs   	|---|  Certificate  |
-	|            	|	|          		|   |				|   |				|	|	1 Yr		|
-	+---------------+   +---------------+   +---------------+   +---------------+   +---------------+ 
+	+---------------+  +---------------+  +---------------+	 +---------------+	+---------------+		    
+	|  Root CA   	|  | Intermediate  |  | Policy CA     |	 |  End-User CA  |	|  End-User		|
+	|   25 Yrs   	|--|   CA  10 Yrs  |--|	5 Yrs   	  |--|	3 Yrs   	 |--|  Certificate  |
+	|            	|  |          	   |  |				  |  |				 |	|	1 Yr		|
+	+---------------+  +---------------+  +---------------+  +---------------+  +---------------+ 
 
 
 ## Generate root keys 
