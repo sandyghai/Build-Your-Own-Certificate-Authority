@@ -15,7 +15,7 @@ The core component was to start with internal CA to generate asymmetric keys to 
 
 ## Certificate Chain
 
-When you decide to create a CA, the decision comes down to building a certificate chain, a two, three or four tier certificate chain.  Below are the examples for certificate chain and validity of certificates.I will leave this with you to decide what level of security and complexity you want to achieve in this job.
+When you decide to create a CA, the decision comes down to building a certificate chain, a two, three or four tier certificate chain.  Below are the examples for certificate chain and validity of certificates. I will leave this with you to decide what level of security and complexity you want to achieve in this job.
 
 	Two tier certificate chain
 	+---------------+  +---------------+  +---------------+
